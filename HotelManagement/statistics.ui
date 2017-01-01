@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>statistics</class>
+ <widget class="QWidget" name="statistics">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>737</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>统计查询</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>731</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="statistics_2">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="statis">
+       <attribute name="title">
+        <string>统计</string>
+       </attribute>
+       <widget class="QLabel" name="label">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>90</y>
+          <width>150</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;入住房间数量：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>210</y>
+          <width>150</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;入住率：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>340</y>
+          <width>150</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;总收入：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="roomnum">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>90</y>
+          <width>200</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Panel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="roomp">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>210</y>
+          <width>200</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Panel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="allcharge">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>340</y>
+          <width>200</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Panel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ok_button">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>430</y>
+          <width>90</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>确定</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>721</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/picture/1.jpg);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>430</y>
+          <width>90</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>统计</string>
+        </property>
+       </widget>
+       <zorder>label_9</zorder>
+       <zorder>label</zorder>
+       <zorder>label_2</zorder>
+       <zorder>label_3</zorder>
+       <zorder>roomnum</zorder>
+       <zorder>roomp</zorder>
+       <zorder>allcharge</zorder>
+       <zorder>ok_button</zorder>
+       <zorder>pushButton_3</zorder>
+      </widget>
+      <widget class="QWidget" name="search">
+       <attribute name="title">
+        <string>查询</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>731</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;按姓名查询&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="tabPosition">
+         <enum>QTabWidget::West</enum>
+        </property>
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>按房间查询</string>
+         </attribute>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>40</y>
+            <width>160</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>请选择查找房间号：</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>430</y>
+            <width>90</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>确认</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>40</y>
+            <width>160</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>101</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>102</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>103</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>104</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>105</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>106</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>107</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>108</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>109</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>110</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>201</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>202</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>203</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>204</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>205</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>206</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>207</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>208</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>209</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>210</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>301</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>302</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>303</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>304</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>305</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>306</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>307</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>308</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>401</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>402</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>403</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>404</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>405</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>406</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>701</width>
+            <height>491</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QTextEdit" name="room_information">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>100</y>
+            <width>501</width>
+            <height>271</height>
+           </rect>
+          </property>
+         </widget>
+         <zorder>label_10</zorder>
+         <zorder>label_7</zorder>
+         <zorder>pushButton</zorder>
+         <zorder>comboBox</zorder>
+         <zorder>room_information</zorder>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;an&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <attribute name="title">
+          <string>按姓名查询</string>
+         </attribute>
+         <widget class="QLineEdit" name="namelineEdit">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>40</y>
+            <width>150</width>
+            <height>30</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>40</y>
+            <width>141</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>请输入查询姓名：</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>420</y>
+            <width>90</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>确认</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>701</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>160</y>
+            <width>81</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>房间号：</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="roomLabel">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>160</y>
+            <width>81</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::Panel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_18">
+          <property name="geometry">
+           <rect>
+            <x>130</x>
+            <y>220</y>
+            <width>81</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>入住时间：</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="year">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>220</y>
+            <width>70</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::Panel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>220</y>
+            <width>30</width>
+            <height>15</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>年</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="month">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>220</y>
+            <width>70</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::Panel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>220</y>
+            <width>30</width>
+            <height>15</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>月</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="day">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>220</y>
+            <width>70</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::Panel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>220</y>
+            <width>30</width>
+            <height>15</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>日</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>40</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>确定</string>
+          </property>
+         </widget>
+         <zorder>label_11</zorder>
+         <zorder>namelineEdit</zorder>
+         <zorder>label_8</zorder>
+         <zorder>pushButton_2</zorder>
+         <zorder>label_16</zorder>
+         <zorder>roomLabel</zorder>
+         <zorder>label_18</zorder>
+         <zorder>year</zorder>
+         <zorder>label_4</zorder>
+         <zorder>month</zorder>
+         <zorder>label_6</zorder>
+         <zorder>day</zorder>
+         <zorder>label_13</zorder>
+         <zorder>pushButton_4</zorder>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

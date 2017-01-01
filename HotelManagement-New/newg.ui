@@ -1,0 +1,2416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>737</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="toolTip">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;按姓名查询&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>731</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="verticalTabWidget">
+      <property name="font">
+       <font>
+        <family>SimSun-ExtB</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>入住</string>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="verticalTabWidgetPage1" native="true">
+       <attribute name="title">
+        <string>入住</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="geometry">
+         <rect>
+          <x>1</x>
+          <y>1</y>
+          <width>729</width>
+          <height>519</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>SimSun-ExtB</family>
+          <pointsize>16</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;单人间&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="tabPosition">
+         <enum>QTabWidget::North</enum>
+        </property>
+        <property name="tabShape">
+         <enum>QTabWidget::Rounded</enum>
+        </property>
+        <property name="currentIndex">
+         <number>3</number>
+        </property>
+        <property name="elideMode">
+         <enum>Qt::ElideNone</enum>
+        </property>
+        <widget class="QWidget" name="danrenjian">
+         <attribute name="title">
+          <string>单人间</string>
+         </attribute>
+         <widget class="QPushButton" name="drj_2">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>102</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_3">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>103</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_5">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>105</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_6">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>106</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_7">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>260</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>107</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_8">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>260</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>108</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_9">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>340</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>109</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_1">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>101</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_4">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>104</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_10">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>340</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>110</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label</zorder>
+         <zorder>drj_2</zorder>
+         <zorder>drj_3</zorder>
+         <zorder>drj_5</zorder>
+         <zorder>drj_6</zorder>
+         <zorder>drj_7</zorder>
+         <zorder>drj_8</zorder>
+         <zorder>drj_9</zorder>
+         <zorder>drj_1</zorder>
+         <zorder>drj_4</zorder>
+         <zorder>drj_10</zorder>
+        </widget>
+        <widget class="QWidget" name="shuangrenjian">
+         <attribute name="title">
+          <string>双人间</string>
+         </attribute>
+         <widget class="QPushButton" name="srj_1">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>201</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_2">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>202</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_3">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>203</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_4">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>204</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_6">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>206</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_7">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>207</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_8">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>208</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_5">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>205</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_10">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>340</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>210</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_9">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>340</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>209</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_2</zorder>
+         <zorder>srj_1</zorder>
+         <zorder>srj_2</zorder>
+         <zorder>srj_3</zorder>
+         <zorder>srj_4</zorder>
+         <zorder>srj_6</zorder>
+         <zorder>srj_7</zorder>
+         <zorder>srj_8</zorder>
+         <zorder>srj_5</zorder>
+         <zorder>srj_10</zorder>
+         <zorder>srj_9</zorder>
+        </widget>
+        <widget class="QWidget" name="haohuajian">
+         <attribute name="title">
+          <string>豪华间</string>
+         </attribute>
+         <widget class="QPushButton" name="hhj_1">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>301</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_2">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>302</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_3">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>303</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_4">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>304</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_5">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>305</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_6">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>306</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_7">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>307</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>308</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>1</x>
+            <y>1</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_3</zorder>
+         <zorder>hhj_1</zorder>
+         <zorder>hhj_2</zorder>
+         <zorder>hhj_3</zorder>
+         <zorder>hhj_4</zorder>
+         <zorder>hhj_5</zorder>
+         <zorder>hhj_6</zorder>
+         <zorder>hhj_7</zorder>
+         <zorder>pushButton_8</zorder>
+        </widget>
+        <widget class="QWidget" name="haohuataofang">
+         <attribute name="title">
+          <string>豪华套房</string>
+         </attribute>
+         <widget class="QPushButton" name="hht_1">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>401</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_2">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>402</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_3">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>403</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_4">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>404</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_5">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>405</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_6">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>406</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_4</zorder>
+         <zorder>hht_1</zorder>
+         <zorder>hht_2</zorder>
+         <zorder>hht_3</zorder>
+         <zorder>hht_4</zorder>
+         <zorder>hht_5</zorder>
+         <zorder>hht_6</zorder>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="verticalTabWidgetPage2" native="true">
+       <attribute name="title">
+        <string>预定</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>1</x>
+          <y>1</y>
+          <width>729</width>
+          <height>519</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;单人间&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="tabPosition">
+         <enum>QTabWidget::North</enum>
+        </property>
+        <property name="tabShape">
+         <enum>QTabWidget::Rounded</enum>
+        </property>
+        <property name="currentIndex">
+         <number>3</number>
+        </property>
+        <property name="elideMode">
+         <enum>Qt::ElideNone</enum>
+        </property>
+        <widget class="QWidget" name="danrenjian_2">
+         <attribute name="title">
+          <string>单人间</string>
+         </attribute>
+         <widget class="QPushButton" name="drj_11">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>102</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_12">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>103</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_13">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>105</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_14">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>106</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_15">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>260</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>107</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_16">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>260</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>108</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_17">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>340</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>109</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_18">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>101</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_19">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>104</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_20">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>340</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>110</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_5</zorder>
+         <zorder>drj_11</zorder>
+         <zorder>drj_12</zorder>
+         <zorder>drj_13</zorder>
+         <zorder>drj_14</zorder>
+         <zorder>drj_15</zorder>
+         <zorder>drj_16</zorder>
+         <zorder>drj_17</zorder>
+         <zorder>drj_18</zorder>
+         <zorder>drj_19</zorder>
+         <zorder>drj_20</zorder>
+        </widget>
+        <widget class="QWidget" name="shuangrenjian_2">
+         <attribute name="title">
+          <string>双人间</string>
+         </attribute>
+         <widget class="QPushButton" name="srj_11">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>201</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_12">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>202</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_13">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>203</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_14">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>204</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_15">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>206</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_16">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>207</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_17">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>208</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_18">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>205</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_19">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>340</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>210</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_20">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>340</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>209</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_6</zorder>
+         <zorder>srj_11</zorder>
+         <zorder>srj_12</zorder>
+         <zorder>srj_13</zorder>
+         <zorder>srj_14</zorder>
+         <zorder>srj_15</zorder>
+         <zorder>srj_16</zorder>
+         <zorder>srj_17</zorder>
+         <zorder>srj_18</zorder>
+         <zorder>srj_19</zorder>
+         <zorder>srj_20</zorder>
+        </widget>
+        <widget class="QWidget" name="haohuajian_2">
+         <attribute name="title">
+          <string>豪华间</string>
+         </attribute>
+         <widget class="QPushButton" name="hhj_8">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>301</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_9">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>302</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_10">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>303</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_11">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>304</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_12">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>305</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_13">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>306</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_14">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>307</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>308</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>1</x>
+            <y>1</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_7</zorder>
+         <zorder>hhj_8</zorder>
+         <zorder>hhj_9</zorder>
+         <zorder>hhj_10</zorder>
+         <zorder>hhj_11</zorder>
+         <zorder>hhj_12</zorder>
+         <zorder>hhj_13</zorder>
+         <zorder>hhj_14</zorder>
+         <zorder>pushButton_9</zorder>
+        </widget>
+        <widget class="QWidget" name="haohuataofang_2">
+         <attribute name="title">
+          <string>豪华套房</string>
+         </attribute>
+         <widget class="QPushButton" name="hht_7">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>401</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_8">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>402</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_9">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>403</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_10">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>404</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_11">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>405</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_12">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>406</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>1</x>
+            <y>1</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_8</zorder>
+         <zorder>hht_7</zorder>
+         <zorder>hht_8</zorder>
+         <zorder>hht_9</zorder>
+         <zorder>hht_10</zorder>
+         <zorder>hht_11</zorder>
+         <zorder>hht_12</zorder>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="verticalTabWidgetPage3" native="true">
+       <attribute name="title">
+        <string>退房</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>1</x>
+          <y>1</y>
+          <width>729</width>
+          <height>519</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;单人间&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="tabPosition">
+         <enum>QTabWidget::North</enum>
+        </property>
+        <property name="tabShape">
+         <enum>QTabWidget::Rounded</enum>
+        </property>
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <property name="elideMode">
+         <enum>Qt::ElideNone</enum>
+        </property>
+        <widget class="QWidget" name="danrenjian_3">
+         <attribute name="title">
+          <string>单人间</string>
+         </attribute>
+         <widget class="QPushButton" name="drj_21">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>102</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_22">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>103</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_23">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>105</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_24">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>106</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_25">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>260</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>107</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_26">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>260</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>108</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_27">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>340</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>109</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_28">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+            <italic>false</italic>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="text">
+           <string>101</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_29">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>104</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="drj_30">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>340</y>
+            <width>120</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>110</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_9</zorder>
+         <zorder>drj_21</zorder>
+         <zorder>drj_22</zorder>
+         <zorder>drj_23</zorder>
+         <zorder>drj_24</zorder>
+         <zorder>drj_25</zorder>
+         <zorder>drj_26</zorder>
+         <zorder>drj_27</zorder>
+         <zorder>drj_28</zorder>
+         <zorder>drj_29</zorder>
+         <zorder>drj_30</zorder>
+        </widget>
+        <widget class="QWidget" name="shuangrenjian_3">
+         <attribute name="title">
+          <string>双人间</string>
+         </attribute>
+         <widget class="QPushButton" name="srj_21">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>201</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_22">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>202</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_23">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>203</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_24">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>204</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_25">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>206</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_26">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>207</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_27">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>208</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_28">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>205</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_29">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>340</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>210</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="srj_30">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>340</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>209</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_10</zorder>
+         <zorder>srj_21</zorder>
+         <zorder>srj_22</zorder>
+         <zorder>srj_23</zorder>
+         <zorder>srj_24</zorder>
+         <zorder>srj_25</zorder>
+         <zorder>srj_26</zorder>
+         <zorder>srj_27</zorder>
+         <zorder>srj_28</zorder>
+         <zorder>srj_29</zorder>
+         <zorder>srj_30</zorder>
+        </widget>
+        <widget class="QWidget" name="haohuajian_3">
+         <attribute name="title">
+          <string>豪华间</string>
+         </attribute>
+         <widget class="QPushButton" name="hhj_15">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>301</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_16">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>302</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_17">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>303</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_18">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>304</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_19">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>305</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_20">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>306</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hhj_21">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>307</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_10">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>260</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>308</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>1</x>
+            <y>1</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_11</zorder>
+         <zorder>hhj_15</zorder>
+         <zorder>hhj_16</zorder>
+         <zorder>hhj_17</zorder>
+         <zorder>hhj_18</zorder>
+         <zorder>hhj_19</zorder>
+         <zorder>hhj_20</zorder>
+         <zorder>hhj_21</zorder>
+         <zorder>pushButton_10</zorder>
+        </widget>
+        <widget class="QWidget" name="haohuataofang_3">
+         <attribute name="title">
+          <string>豪华套房</string>
+         </attribute>
+         <widget class="QPushButton" name="hht_13">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>401</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_14">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>20</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>402</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_15">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>403</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_16">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>100</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>404</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_17">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>405</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="hht_18">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>180</y>
+            <width>121</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>30</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>406</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>721</width>
+            <height>481</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/picture/1.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_12</zorder>
+         <zorder>hht_13</zorder>
+         <zorder>hht_14</zorder>
+         <zorder>hht_15</zorder>
+         <zorder>hht_16</zorder>
+         <zorder>hht_17</zorder>
+         <zorder>hht_18</zorder>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
